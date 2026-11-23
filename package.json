@@ -1,0 +1,48 @@
+{
+  "name": "frameproof",
+  "version": "0.1.0",
+  "main": "dist/run.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "e2e": "npm run build && node --test tests/e2e/run.mjs",
+    "fixture": "npm run build && node scripts/make-fixture.mjs",
+    "demo": "npm run build && node dist/cli.js examples/landing/build.html -d examples/landing/design.png --figma-json examples/landing/design.figma.json -o examples/landing/report",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "figma",
+    "qa",
+    "visual-regression",
+    "playwright",
+    "design-review"
+  ],
+  "author": "Nuvia Ortiz Basulto",
+  "license": "MIT",
+  "description": "Check a built page against its Figma design: pixels, texts, fonts, colours and positions, in one HTML report.",
+  "dependencies": {
+    "pixelmatch": "^7.2.0",
+    "playwright": "^1.65.1",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@types/node": "^20.19.43",
+    "@types/pngjs": "^6.0.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.12"
+  },
+  "type": "module",
+  "bin": {
+    "frameproof": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}

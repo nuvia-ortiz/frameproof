@@ -1,0 +1,500 @@
+{
+  "name": "Home · Desktop",
+  "nodes": {
+    "1:2": {
+      "document": {
+        "id": "1:2",
+        "name": "Home · Desktop",
+        "type": "FRAME",
+        "absoluteBoundingBox": {
+          "x": 1200,
+          "y": -340,
+          "width": 1280,
+          "height": 921
+        },
+        "children": [
+          {
+            "id": "2:1",
+            "name": "Rueda Libre",
+            "type": "TEXT",
+            "characters": "Rueda Libre",
+            "absoluteBoundingBox": {
+              "x": 1280,
+              "y": -314,
+              "width": 129.4375,
+              "height": 28
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.11372549019607843,
+                  "g": 0.13725490196078433,
+                  "b": 0.12549019607843137,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Fraunces",
+              "fontWeight": 600,
+              "fontSize": 22,
+              "letterSpacing": 0,
+              "lineHeightPx": 28,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:2",
+            "name": "Servicios",
+            "type": "TEXT",
+            "characters": "Servicios",
+            "absoluteBoundingBox": {
+              "x": 2147.8125,
+              "y": -310,
+              "width": 67.59375,
+              "height": 20
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.11372549019607843,
+                  "g": 0.13725490196078433,
+                  "b": 0.12549019607843137,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 15,
+              "letterSpacing": 0,
+              "lineHeightPx": 20,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:3",
+            "name": "Precios",
+            "type": "TEXT",
+            "characters": "Precios",
+            "absoluteBoundingBox": {
+              "x": 2247.40625,
+              "y": -310,
+              "width": 54.21875,
+              "height": 20
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.11372549019607843,
+                  "g": 0.13725490196078433,
+                  "b": 0.12549019607843137,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 15,
+              "letterSpacing": 0,
+              "lineHeightPx": 20,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:4",
+            "name": "Contacto",
+            "type": "TEXT",
+            "characters": "Contacto",
+            "absoluteBoundingBox": {
+              "x": 2333.625,
+              "y": -310,
+              "width": 66.375,
+              "height": 20
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.11372549019607843,
+                  "g": 0.13725490196078433,
+                  "b": 0.12549019607843137,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 15,
+              "letterSpacing": 0,
+              "lineHeightPx": 20,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:5",
+            "name": "Tu bici a punto, sin esp…",
+            "type": "TEXT",
+            "characters": "Tu bici a punto, sin esperar una semana",
+            "absoluteBoundingBox": {
+              "x": 1280,
+              "y": -142,
+              "width": 576,
+              "height": 112
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.11372549019607843,
+                  "g": 0.13725490196078433,
+                  "b": 0.12549019607843137,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Fraunces",
+              "fontWeight": 600,
+              "fontSize": 48,
+              "letterSpacing": -0.5,
+              "lineHeightPx": 56,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:6",
+            "name": "Taller de barrio con cit…",
+            "type": "TEXT",
+            "characters": "Taller de barrio con cita el mismo día. Revisamos frenos, cambios y ruedas mientras te tomas un café.",
+            "absoluteBoundingBox": {
+              "x": 1280,
+              "y": -10,
+              "width": 540,
+              "height": 56
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.33725490196078434,
+                  "g": 0.3764705882352941,
+                  "b": 0.35294117647058826,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 18,
+              "letterSpacing": 0,
+              "lineHeightPx": 28,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:7",
+            "name": "Pedir cita",
+            "type": "TEXT",
+            "characters": "Pedir cita",
+            "absoluteBoundingBox": {
+              "x": 1308,
+              "y": 92,
+              "width": 72.640625,
+              "height": 20
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 16,
+              "letterSpacing": 0,
+              "lineHeightPx": 20,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:8",
+            "name": "Puesta a punto",
+            "type": "TEXT",
+            "characters": "Puesta a punto",
+            "absoluteBoundingBox": {
+              "x": 1308,
+              "y": 296,
+              "width": 301.328125,
+              "height": 28
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.11372549019607843,
+                  "g": 0.13725490196078433,
+                  "b": 0.12549019607843137,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 20,
+              "letterSpacing": 0,
+              "lineHeightPx": 28,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:9",
+            "name": "Ajuste completo de freno…",
+            "type": "TEXT",
+            "characters": "Ajuste completo de frenos y cambios en menos de una hora.",
+            "absoluteBoundingBox": {
+              "x": 1308,
+              "y": 332,
+              "width": 301.328125,
+              "height": 48
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.33725490196078434,
+                  "g": 0.3764705882352941,
+                  "b": 0.35294117647058826,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 16,
+              "letterSpacing": 0,
+              "lineHeightPx": 24,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:10",
+            "name": "Clases en grupo",
+            "type": "TEXT",
+            "characters": "Clases en grupo",
+            "absoluteBoundingBox": {
+              "x": 1689.328125,
+              "y": 296,
+              "width": 301.328125,
+              "height": 28
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.11372549019607843,
+                  "g": 0.13725490196078433,
+                  "b": 0.12549019607843137,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 20,
+              "letterSpacing": 0,
+              "lineHeightPx": 28,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:11",
+            "name": "Aprende a arreglar un pi…",
+            "type": "TEXT",
+            "characters": "Aprende a arreglar un pinchazo y a cuidar la cadena tú mismo.",
+            "absoluteBoundingBox": {
+              "x": 1689.328125,
+              "y": 332,
+              "width": 301.328125,
+              "height": 48
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.33725490196078434,
+                  "g": 0.3764705882352941,
+                  "b": 0.35294117647058826,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 16,
+              "letterSpacing": 0,
+              "lineHeightPx": 24,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:12",
+            "name": "Recogida a domicilio",
+            "type": "TEXT",
+            "characters": "Recogida a domicilio",
+            "absoluteBoundingBox": {
+              "x": 2070.65625,
+              "y": 296,
+              "width": 301.34375,
+              "height": 28
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.11372549019607843,
+                  "g": 0.13725490196078433,
+                  "b": 0.12549019607843137,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 20,
+              "letterSpacing": 0,
+              "lineHeightPx": 28,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:13",
+            "name": "Pasamos a por tu bici y …",
+            "type": "TEXT",
+            "characters": "Pasamos a por tu bici y te la devolvemos lista.",
+            "absoluteBoundingBox": {
+              "x": 2070.65625,
+              "y": 332,
+              "width": 301.34375,
+              "height": 48
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.33725490196078434,
+                  "g": 0.3764705882352941,
+                  "b": 0.35294117647058826,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 16,
+              "letterSpacing": 0,
+              "lineHeightPx": 24,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:14",
+            "name": "Calle del Taller 12",
+            "type": "TEXT",
+            "characters": "Calle del Taller 12",
+            "absoluteBoundingBox": {
+              "x": 1280,
+              "y": 533,
+              "width": 115.296875,
+              "height": 20
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.33725490196078434,
+                  "g": 0.3764705882352941,
+                  "b": 0.35294117647058826,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 14,
+              "letterSpacing": 0,
+              "lineHeightPx": 20,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          },
+          {
+            "id": "2:15",
+            "name": "Aviso legal",
+            "type": "TEXT",
+            "characters": "Aviso legal",
+            "absoluteBoundingBox": {
+              "x": 2328.90625,
+              "y": 533,
+              "width": 71.09375,
+              "height": 20
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.33725490196078434,
+                  "g": 0.3764705882352941,
+                  "b": 0.35294117647058826,
+                  "a": 1
+                }
+              }
+            ],
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 14,
+              "letterSpacing": 0,
+              "lineHeightPx": 20,
+              "lineHeightUnit": "PIXELS",
+              "textAlignHorizontal": "LEFT"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

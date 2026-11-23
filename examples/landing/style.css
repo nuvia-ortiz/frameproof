@@ -1,0 +1,32 @@
+@font-face { font-family: "Inter"; font-weight: 400; src: url(fonts/inter-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 600; src: url(fonts/inter-latin-600-normal.woff2) format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 700; src: url(fonts/inter-latin-700-normal.woff2) format("woff2"); }
+@font-face { font-family: "Fraunces"; font-weight: 600; src: url(fonts/fraunces-latin-600-normal.woff2) format("woff2"); }
+
+:root {
+  --ink: #1d2320;
+  --muted: #56605a;
+  --paper: #f7f4ee;
+  --card: #ffffff;
+  --brand: #2f6b4f;
+  --on-brand: #ffffff;
+  --h1: 48px;
+  --nav-weight: 600;
+}
+* { box-sizing: border-box; margin: 0; }
+body { width: 1280px; background: var(--paper); color: var(--ink); font: 400 16px/24px "Inter", sans-serif; }
+.nav { display: flex; align-items: center; justify-content: space-between; height: 80px; padding: 0 80px; }
+.logo { font: 600 22px/28px "Fraunces", serif; }
+.links { display: flex; gap: 32px; }
+.links a { color: var(--ink); text-decoration: none; font-weight: var(--nav-weight); font-size: 15px; line-height: 20px; }
+.hero { display: grid; grid-template-columns: 1fr 480px; gap: 64px; padding: 72px 80px 96px; align-items: center; }
+h1 { font: 600 var(--h1)/56px "Fraunces", serif; letter-spacing: -0.5px; }
+.lead { margin-top: 20px; color: var(--muted); font-size: 18px; line-height: 28px; max-width: 540px; }
+.cta { display: inline-block; margin-top: 32px; padding: 14px 28px; border-radius: 999px; background: var(--brand); color: var(--on-brand); text-decoration: none; font-weight: 600; line-height: 20px; }
+.photo { height: 360px; border-radius: 24px; background: linear-gradient(135deg, #cfe0d4, #8fb5a0 60%, #2f6b4f); }
+.features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; padding: 0 80px 96px; }
+.card { background: var(--card); border-radius: 16px; padding: 28px; }
+.card h2 { font: 600 20px/28px "Inter", sans-serif; }
+.card p { margin-top: 8px; color: var(--muted); }
+.foot { display: flex; justify-content: space-between; padding: 28px 80px; border-top: 1px solid #ddd6c8; color: var(--muted); font-size: 14px; line-height: 20px; }
+.foot a { color: var(--muted); }
