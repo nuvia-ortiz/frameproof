@@ -2,6 +2,8 @@
 
 Checks a built page against its Figma design and writes one HTML report a designer and a developer can both read.
 
+**Figma file:** [the report's screens as editable Figma layers](https://www.figma.com/design/W7sici9lPeKEN3xxYpcUQP/Frameproof-Diseno-del-informe) (view-only).
+
 It opens the page in a real browser at the frame's width, then compares it with the design in two ways:
 
 - **Texts and type:** for every text layer in the Figma frame it finds the matching element on the page and checks the content, font, size, weight, line height, letter spacing, colour and position. Each problem names the layer, the CSS selector and the two values ("Font size 44px; the design has 48px").
